@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https:chat.webidemyyy.ir",
+    origin: "https://chat.webidemyyy.ir",
     credentials: true,
   },
 });
